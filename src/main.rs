@@ -1,8 +1,8 @@
-mod day5;
-use day5::Solve;
+mod day6;
+use day6::Solve;
 
-fn main() {
-    let mut day = Solve {};
+fn main(){
+    let mut day = Solve{};
     day.parse();
 
     println!("");
